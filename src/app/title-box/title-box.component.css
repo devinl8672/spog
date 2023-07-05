@@ -2,34 +2,26 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    position: relative;
-}
+  }
   
-.info-box {
-    display: flex;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-}
-
 .triangle {
     width: 0;
     height: 0;
-    border-top: 8px solid transparent;
-    border-bottom: 8px solid transparent;
-    border-right: 8px solid #ccc;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid gray;
+    margin-right: 10px;
 }
 
 .info-content {
     padding-inline: 20px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-.info-row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
+/* .info-row {
+
 }
 
 .info-label {
@@ -38,5 +30,13 @@
 
 .info-value {
     font-style: italic;
+} */
+
+.info-row {
+    margin-right: 10px;
+}
+
+.info-value {
+    display: inline-block;
 }
   
