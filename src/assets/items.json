@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "EIS" },
+  { "id": 2, "name": "ETIPS" },
+  { "id": 3, "name": "ECT" },
+  { "id": 4, "name": "ETSE" },
+  { "id": 5, "name": "Optum Labs" },
+  { "id": 6, "name": "OptumInsight" },
+  { "id": 7, "name": "OptumRx" },
+  { "id": 8, "name": "UHC Benops" },
+  { "id": 9, "name": "UHC Global" },
+  { "id": 10, "name": "UHG Provider" }
+]

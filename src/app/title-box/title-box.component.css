@@ -1,0 +1,42 @@
+.title-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+  
+.info-box {
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #ccc;
+}
+
+.info-content {
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.info-label {
+    margin-right: 5px;
+}
+
+.info-value {
+    font-style: italic;
+}
+  
