@@ -8,6 +8,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { TestComponent } from './test/test.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { TitleBoxComponent } from './title-box/title-box.component';
+import { BoxComponent } from './box/box.component';
+import { ItemBoxComponent } from './item-box/item-box.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { TitleBoxComponent } from './title-box/title-box.component';
     SidebarComponent,
     TestComponent,
     MainContentComponent,
-    TitleBoxComponent
+    TitleBoxComponent,
+    BoxComponent,
+    ItemBoxComponent
   ],
   imports: [
     BrowserModule,

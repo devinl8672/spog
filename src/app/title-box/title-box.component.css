@@ -14,11 +14,15 @@
     margin-right: 10px;
 }
 
+.triangle.down {
+    transform: rotate(90deg);
+}
+
 .info-content {
     flex-grow: 1;
     display: flex;
     flex-direction: row;
-    background-color: #bbb1b1;
+    background-color: #cccccc;
     border-radius: 5px;
     padding: 10px;
     padding-bottom: 20px;
@@ -40,4 +44,25 @@
   
 .small-text {
     font-size: 12px; /* Adjust the font size as needed */
+}
+
+.additional-content {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.row app-item-box:first-child {
+    margin-left: 0;
+}
+
+app-item-box {
+    flex: 1 0 auto;
+    margin-left: 10px;
 }

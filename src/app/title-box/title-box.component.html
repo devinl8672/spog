@@ -1,5 +1,5 @@
-<div class="title-box">
-    <div class="triangle"></div>
+<div class="title-box" (click)="toggleContent()">
+    <div class="triangle" [class.down]="showContent"></div>
     <div class="info-content">
       <div class="info-col">
         <span class="info-value">{{ teamName }}</span>
@@ -12,5 +12,17 @@
       <div class="info-col">
         <span class="info-value">{{ leadership }}</span>
       </div>
+    </div>
+</div>
+
+
+<div class="additional-content" *ngIf="showContent">
+    <div class="row">
+        <div class="triangle" [class.down]="showContent"></div>
+        <app-item-box *ngFor="let box of boxesRow1" [title]="box.title" [content]="box.content"></app-item-box>
+    </div>
+    <div class="row">
+        <div class="triangle" [class.down]="showContent"></div>
+        <app-item-box *ngFor="let box of boxesRow2" [title]="box.title" [content]="box.content"></app-item-box>
     </div>
 </div>

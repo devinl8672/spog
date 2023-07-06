@@ -1,0 +1,21 @@
+.item-box {
+    flex: 1 0 12.5%;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.item-title {
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+.item-content {
+    margin-top: 5px;
+   
+    background-color: lightblue;
+    padding: 5px;
+}
