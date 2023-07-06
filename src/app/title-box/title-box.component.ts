@@ -7,7 +7,11 @@ import { Component, Input } from '@angular/core';
 })
 export class TitleBoxComponent {
   @Input()teamName!: string;
+  @Input()teamNameAcro!: string;
   @Input()purpose!: string;
   @Input()leadership!: string;
+
+
+  
 }
 

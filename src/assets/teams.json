@@ -1,21 +1,25 @@
 [
     {
       "teamName": "Business Operations & Strategy Enablement",
-      "purpose": "Purpose 1",
+      "teamNameAcro": "BOSE",
+      "purpose": "The application of a structured, methodical approach to solvign a complex problem. Drawin on scientific thinking, this process leads to reaching the root cause and applying countermeasures to ensure the problem does not occur again.",
       "leadership": "Mahmoud Elassir, Anne Finch"
     },
     {
       "teamName": "Core Infrastructure & Operations Platform",
+      "teamNameAcro": "CIOP",
       "purpose": "Purpose 2",
       "leadership": "Mahmoud Elassir, Mike Tesmer"
     },
     {
       "teamName": "Corporate & Employee Experience",
+      "teamNameAcro": "CEE",
       "purpose": "Purpose 3",
       "leadership": "Mahmoud Elassir, Brian Soller"
     },
     {
       "teamName": "Optum Omni Channel",
+      "teamNameAcro": "OMNI",
       "purpose": "Purpose 4",
       "leadership": "Mahmoud Elassir, Craig Howarth"
     }
